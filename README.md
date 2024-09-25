@@ -20,16 +20,17 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - Unnest convert the array into rows.
 - CTE functions to  better readability by dividing the whole analysis into steps and also cte's are recursive to follow the hierarchical steps
 - Sub query is similar to cte for readability but at time not reusable elsewhere.
--- To-DATE function to convert the text into the date in their existing format
+- To-DATE function to convert the text into the date in their existing format
   
 ## Dataset
 
 Origine Source -The data for this project is sourced from the Kaggle dataset:
 
-- **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+**Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
--- Analysis Code --
+
 ## Database creation.
+- Tool used for analysis **PostgreSQL**.
 
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
