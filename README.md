@@ -29,7 +29,7 @@ Origine Source -The data for this project is sourced from the Kaggle dataset:
 **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 
-## Database creation.
+## Database Creation.
 - Tool used for analysis **PostgreSQL**.
 
 DROP TABLE IF EXISTS netflix;
@@ -50,7 +50,8 @@ CREATE TABLE netflix
 );
 
 ## CSV file uploaded to database.
-- Download csv file from - ![](https://github.com/ashishkushbi/Netflix-SQL-Project.git)
+- [Download CSV file - Github ](https://github.com/ashishkushbi/Netflix-SQL-Project.git)
+
 
 ## Business Problems and Answers
 
