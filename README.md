@@ -206,7 +206,9 @@ order by 1 desc;
                 select release_year, 
 				       country,
 				       count(show_id) as total_release,
-				       round((count(show_id)::numeric / (select count(show_id) from netflix where country ='India')::numeric *100),2) as release_pnt
+				       round((count(show_id)::numeric / (select count(show_id)
+                                                                        from netflix where country ='India')::numeric *100),2)
+                                                                        as release_pnt
 					   from netflix
 					   where country = 'India'
 					   group by release_year ,country
