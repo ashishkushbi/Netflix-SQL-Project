@@ -31,7 +31,7 @@ Origine Source -The data for this project is sourced from the Kaggle dataset:
 
 ## Database Creation.
 - Tool used for analysis **PostgreSQL**.
-
+```
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -48,7 +48,7 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
-
+```
 ## CSV file uploaded to database.
 - [Download CSV file - Github ](https://github.com/ashishkushbi/Netflix-SQL-Project.git)
 
